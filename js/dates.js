@@ -1,25 +1,25 @@
-// //STEP 1
-// function getDaysInMonth(month, year) {
+//STEP 1
+function getDaysInMonth(month, year) {
     
-//     const date = new Date(year, month + 1, 0)
-//     return date.getDate()
-// }
+    const date = new Date(year, month + 1, 0)
+    return date.getDate()
+}
   
-// const month = 5
-// const year = 2028
-// const daysInMonth = getDaysInMonth(month, year)
-// console.log(`Days in month ${month + 1} of ${year}: ${daysInMonth}`)
+const month = 5
+const year = 2028
+const daysInMonth = getDaysInMonth(month, year)
+console.log(`Days in month ${month + 1} of ${year}: ${daysInMonth}`)
 
 //STEP 2
-// function getMonthName(date) {
-//     const monthNames = ['Januray', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+function getMonthName(date) {
+    const monthNames = ['Januray', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
-//     return monthNames[date.getMonth()]
-// }
+    return monthNames[date.getMonth()]
+}
 
-// const date = new Date()
-// const monthName = getMonthName(date)
-// console.log(`The month name of ${date.toDateString()} is ${monthName}.`)
+const date = new Date()
+const monthName = getMonthName(date)
+console.log(`The month name of ${date.toDateString()} is ${monthName}.`)
 
 //STEP 3
 function isItTheWeekend() {
